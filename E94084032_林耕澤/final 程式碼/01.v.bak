@@ -1,0 +1,69 @@
+ 
+
+ module Dff(clk,d,rst, q,count,K);
+
+ output q;
+ output reg [31:0] count;
+input clk,d,rst;
+input reg K;
+reg q ;
+wire o;
+always@(posedge clk,posedge rst) begin
+ if(rst) begin
+  q<=1'b0;
+ end
+ else begin
+  q<= d;
+  end
+end
+assign o=q;
+
+always@(posedge clk,posedge rst) begin
+ if(rst) begin
+ count<=32'b0000;
+end
+ else begin
+ if(o==K) begin
+ count<=count+1;
+end
+end
+end
+endmodule
+ 
+
+ 
+
+
+module Mux2_1(Sel,clk,d,rst,q,count);
+
+    input   Sel,clk,d,rst;
+output reg [31:0] count;
+  output reg q;
+
+    wire Sel;
+     reg K;
+
+    always @( Sel,clk,rst ) begin
+        if( !Sel )begin
+         K<=0;
+    end
+        else begin
+         K<=1; 
+    end
+    end
+        
+    Dff   T1(clk,d,rst, q,count,K);
+
+
+
+
+endmodule
+
+
+
+
+
+
+
+
+
