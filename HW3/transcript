@@ -1,0 +1,47 @@
+# Compile of H3-1P.v was successful.
+# Compile of H3-1PTB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim work.And_TB
+# vsim work.And_TB 
+# Start time: 00:31:57 on Apr 21,2021
+# Loading work.And_TB
+# Loading work.And
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 2 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 2 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 2 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 2 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position insertpoint  \
+sim:/And_TB/f
+add wave -position insertpoint  \
+sim:/And_TB/a
+add wave -position insertpoint  \
+sim:/And_TB/b
+run -all
+# Compile of H3-1PTB.v was successful with warnings.
+# Compile of H3-1PTB.v was successful with warnings.
+# Compile of H3-1PTB.v was successful with warnings.
+# Compile of H3-1PTB.v was successful with warnings.
+# Compile of H3-1PTB.v was successful.
+vsim work.AndTB
+# End time: 00:36:18 on Apr 21,2021, Elapsed time: 0:04:21
+# Errors: 0, Warnings: 7
+# vsim work.AndTB 
+# Start time: 00:36:18 on Apr 21,2021
+# Loading work.AndTB
+# Loading work.And
+add wave -position insertpoint  \
+sim:/AndTB/f
+add wave -position insertpoint  \
+sim:/AndTB/a
+add wave -position insertpoint  \
+sim:/AndTB/b
+run
+# ** Note: $finish    : D:/practice/HW3-1_P/H3-1PTB.v(15)
+#    Time: 40 ns  Iteration: 0  Instance: /AndTB
+# 1
+# Break in Module AndTB at D:/practice/HW3-1_P/H3-1PTB.v line 15
+# End time: 00:37:26 on Apr 21,2021, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 1

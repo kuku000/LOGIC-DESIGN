@@ -1,0 +1,18 @@
+D:/practice/HW3-1_P/H3-1PTB.v {2 {vlog -work work -stats=none {D:\practice\HW3-1_P\H3-1PTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: D:\practice\HW3-1_P\H3-1PTB.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:\practice\HW3-1_P\H3-1PTB.v(16): (vlog-2284) Empty $unit scope found.
+-- Compiling package H32d1PTB_v_unit
+-- Compiling module And_TB
+
+Top level modules:
+	And_TB
+
+} {} {}} D:/practice/HW3-1_P/H3-1P.v {1 {vlog -work work -stats=none {D:\practice\HW3-1_P\H3-1P.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module And
+
+Top level modules:
+	And
+
+} {} {}}

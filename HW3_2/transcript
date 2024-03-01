@@ -1,0 +1,18 @@
+# Compile of H3-2.v was successful.
+vsim work.Xor_TB
+# vsim work.Xor_TB 
+# Start time: 00:41:56 on Apr 21,2021
+# Loading work.Xor_TB
+# Loading work.Xor
+add wave -position insertpoint sim:/Xor_TB/*
+add wave -position insertpoint  \
+sim:/Xor_TB/b
+add wave -position insertpoint  \
+sim:/Xor_TB/f
+run
+# ** Note: $finish    : D:/practice/HW3-2_P/H3-2_P_TB.v(13)
+#    Time: 40 ns  Iteration: 0  Instance: /Xor_TB
+# 1
+# Break in Module Xor_TB at D:/practice/HW3-2_P/H3-2_P_TB.v line 13
+# End time: 00:43:33 on Apr 21,2021, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 2

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vXor
+!s110 1618936912
+!i10b 1
+!s100 g^OZ@M5;ezD9mPolKkMKM1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IIog=F[flE^kUdJzN^lR[Y0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/KYLE/Desktop/HW/HW3_2
+w1618936891
+8D:\practice\HW3-2_P\H3-2.v
+FD:\practice\HW3-2_P\H3-2.v
+!i122 8
+L0 2 13
+Z2 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1618936911.000000
+!s107 D:\practice\HW3-2_P\H3-2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\practice\HW3-2_P\H3-2.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@xor
+vXor_TB
+!s110 1618836470
+!i10b 1
+!s100 DbkE`S85>5om=`h=<=X>?3
+R0
+I15XSC30mIT5:<EQML;i011
+R1
+dD:/practice/HW3-2_P
+w1618836466
+8D:\practice\HW3-2_P\H3-2_P_TB.v
+FD:\practice\HW3-2_P\H3-2_P_TB.v
+!i122 7
+L0 3 13
+R2
+r1
+!s85 0
+31
+!s108 1618836470.000000
+!s107 D:\practice\HW3-2_P\H3-2_P_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\practice\HW3-2_P\H3-2_P_TB.v|
+!i113 1
+R3
+R4
+n@xor_@t@b

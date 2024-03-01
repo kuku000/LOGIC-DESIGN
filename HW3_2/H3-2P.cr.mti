@@ -1,0 +1,15 @@
+D:/practice/HW3-2_P/H3-2.v {1 {vlog -work work -stats=none {D:\practice\HW3-2_P\H3-2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Xor
+
+Top level modules:
+	Xor
+
+} {} {}} D:/practice/HW3-2_P/H3-2_P_TB.v {1 {vlog -work work -stats=none {D:\practice\HW3-2_P\H3-2_P_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Xor_TB
+
+Top level modules:
+	Xor_TB
+
+} {} {}}
