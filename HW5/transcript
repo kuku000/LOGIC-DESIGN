@@ -1,0 +1,17 @@
+# Compile of H5.v was successful.
+# Compile of H5PTB.v was successful.
+vsim work.H5TB
+# vsim work.H5TB 
+# Start time: 01:06:55 on Apr 21,2021
+# Loading work.H5TB
+# Loading work.POS
+add wave -position insertpoint sim:/H5TB/*
+add wave -position insertpoint  \
+sim:/H5TB/b
+add wave -position insertpoint  \
+sim:/H5TB/c
+add wave -position insertpoint  \
+sim:/H5TB/f
+run
+# End time: 01:08:46 on Apr 21,2021, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 3

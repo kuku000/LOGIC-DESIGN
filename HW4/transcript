@@ -1,0 +1,76 @@
+# Compile of H4p.v was successful.
+# Compile of TBH4.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb4
+# vsim work.tb4 
+# Start time: 21:02:26 on Apr 21,2021
+# Loading work.tb4
+# Loading work.SOP
+# ** Error (suppressible): (vsim-3389) Port 'c' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tb4/t1 File: D:/practice/HW4_P/TBH4.v Line: 10
+# Error loading design
+# End time: 21:02:27 on Apr 21,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim work.tb4
+# vsim work.tb4 
+# Start time: 21:02:32 on Apr 21,2021
+# Loading work.tb4
+# Loading work.SOP
+# ** Error (suppressible): (vsim-3389) Port 'c' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tb4/t1 File: D:/practice/HW4_P/TBH4.v Line: 10
+# Error loading design
+# End time: 21:02:32 on Apr 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of TBH4.v failed with 1 errors.
+vsim work.tb4
+# vsim work.tb4 
+# Start time: 21:05:09 on Apr 21,2021
+# Loading work.tb4
+# Loading work.SOP
+# ** Error (suppressible): (vsim-3389) Port 'c' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tb4/t1 File: D:/practice/HW4_P/TBH4.v Line: 10
+# Error loading design
+# End time: 21:05:09 on Apr 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of TBH4.v was successful.
+vsim work.tb4
+# vsim work.tb4 
+# Start time: 21:05:26 on Apr 21,2021
+# Loading work.tb4
+# Loading work.SOP
+add wave -position insertpoint  \
+sim:/tb4/a
+add wave -position insertpoint  \
+sim:/tb4/b
+add wave -position insertpoint  \
+sim:/tb4/d
+add wave -position insertpoint  \
+sim:/tb4/e
+add wave -position insertpoint  \
+sim:/tb4/f
+run
+# Compile of TBH4.v was successful.
+vsim work.tb4
+# End time: 21:08:43 on Apr 21,2021, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 3
+# vsim work.tb4 
+# Start time: 21:08:43 on Apr 21,2021
+# Loading work.tb4
+# Loading work.SOP
+add wave -position insertpoint  \
+sim:/tb4/a
+add wave -position insertpoint  \
+sim:/tb4/b
+add wave -position insertpoint  \
+sim:/tb4/d
+add wave -position insertpoint  \
+sim:/tb4/e
+add wave -position insertpoint  \
+sim:/tb4/f
+run
+# ** Note: $finish    : D:/practice/HW4_P/TBH4.v(28)
+#    Time: 110 ns  Iteration: 0  Instance: /tb4
+# 1
+# Break in Module tb4 at D:/practice/HW4_P/TBH4.v line 28
+# End time: 21:10:10 on Apr 21,2021, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 1

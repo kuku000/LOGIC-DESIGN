@@ -1,0 +1,15 @@
+D:/practice/HW4_P/H4p.v {1 {vlog -work work -stats=none {D:\practice\HW4_P\H4p.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SOP
+
+Top level modules:
+	SOP
+
+} {} {}} D:/practice/HW4_P/TBH4.v {1 {vlog -work work -stats=none {D:\practice\HW4_P\TBH4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb4
+
+Top level modules:
+	tb4
+
+} {} {}}
