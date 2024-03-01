@@ -1,0 +1,16 @@
+C:/Users/KYLE/Desktop/HW/HW2/BCD_A_S_TB.v {1 {vlog -work work -stats=none {C:\Users\KYLE\Desktop\HW\HW2\BCD_A_S_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TEST1
+
+Top level modules:
+	TEST1
+
+} {} {}} C:/Users/KYLE/Desktop/HW/HW2/BCD_A_S.v {1 {vlog -work work -stats=none {C:\Users\KYLE\Desktop\HW\HW2\BCD_A_S.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA
+-- Compiling module subBCD
+
+Top level modules:
+	subBCD
+
+} {} {}}

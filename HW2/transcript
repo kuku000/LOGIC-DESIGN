@@ -1,0 +1,23 @@
+vsim work.TEST1
+# vsim work.TEST1 
+# Start time: 00:09:11 on Apr 21,2021
+# Loading work.TEST1
+# Loading work.subBCD
+# Loading work.FA
+add wave -position insertpoint sim:/TEST1/*
+add wave -position insertpoint  \
+sim:/TEST1/b
+add wave -position insertpoint  \
+sim:/TEST1/k
+add wave -position insertpoint  \
+sim:/TEST1/cout
+run -all
+# ** Note: $finish    : C:/Users/KYLE/Desktop/HW/HW2/BCD_A_S_TB.v(22)
+#    Time: 110 ns  Iteration: 0  Instance: /TEST1
+# 1
+# Break in Module TEST1 at C:/Users/KYLE/Desktop/HW/HW2/BCD_A_S_TB.v line 22
+# Compile of BCD_A_S.v was successful.
+# Compile of BCD_A_S_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# End time: 00:25:45 on Apr 21,2021, Elapsed time: 0:16:34
+# Errors: 0, Warnings: 2
