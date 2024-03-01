@@ -1,0 +1,39 @@
+# Compile of H1_P.v was successful.
+# Compile of H1_P_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of H1_P.v was successful.
+# Compile of H1_P_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.H1_TB
+# vsim work.H1_TB 
+# Start time: 21:27:01 on Apr 21,2021
+# Loading work.H1_TB
+# Loading work.sub_fulladder
+# Loading work.fulladder
+add wave -position insertpoint  \
+sim:/H1_TB/Cin
+add wave -position insertpoint  \
+sim:/H1_TB/A
+add wave -position insertpoint  \
+sim:/H1_TB/B
+add wave -position insertpoint  \
+sim:/H1_TB/S
+add wave -position insertpoint  \
+sim:/H1_TB/Cout
+run
+# ** Note: $finish    : D:/practice/HW1_P/H1_P_TB.v(24)
+#    Time: 100 ns  Iteration: 0  Instance: /H1_TB
+# 1
+# Break in Module H1_TB at D:/practice/HW1_P/H1_P_TB.v line 24
+add wave -position insertpoint  \
+sim:/H1_TB/Cin
+add wave -position insertpoint  \
+sim:/H1_TB/A
+add wave -position insertpoint  \
+sim:/H1_TB/B
+add wave -position insertpoint  \
+sim:/H1_TB/S
+add wave -position insertpoint  \
+sim:/H1_TB/Cout
+# End time: 21:30:27 on Apr 21,2021, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 3
